@@ -1,0 +1,182 @@
+/* 4 - External */
+body {
+    padding-bottom: 500px;
+}
+
+h3 {
+    color: green;
+}
+
+/* p {
+    color: blueviolet;
+} */
+
+.paragraph {
+    background-color: black;
+    color: aqua;
+    padding: 10px;
+}
+
+#exclusive-tittle {
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+    font-size: 40px; 
+}
+
+/* Ordem das regras */
+
+h2 {
+    border-bottom: 2px solid red;
+}
+
+.titulo {
+    border-bottom: 3px solid blue;
+}
+
+#outro-titulo {
+    border-bottom: 4px solid green;
+}
+
+/* Nome de cores */
+
+.color-name {
+    color: rgba(231, 15, 58, 0.844);
+}
+
+/* Hex */
+
+.hex {
+    color: #55a398;
+}
+
+.hex-2 {
+    color: #12a333;
+}
+
+/* Aprofudando em Hex */
+
+.simple-hex {
+    color: #333;
+}
+
+.simple-hex-2 {
+    color: #a5f;
+}
+
+/* RGB */
+
+.rgb {
+    color: rgb(255,0,0);
+}
+
+.mix-rgb {
+    color: rgb(5, 55, 0);
+}
+
+/* rgba */
+
+.rgba {
+    color: rgb(255,0,0);
+}
+
+.mix-rgba {
+    color: rgb(255,0,0,0.5);
+}
+
+/* HSL */
+
+.hsl {
+    color: hsl(5, 20%, 50%);
+}
+
+.hsl-2 {
+    color: hsl(40, 80%, 60%);
+}
+
+/* Background */
+
+.bg {
+    background-color: #333;
+    color: yellow;
+}
+
+.bg-2 {
+    background-color: #12a333;
+    color: blue;
+}
+
+/* Background opacity */
+
+.bg-opacity {
+    background-color: #12a333;
+    opacity: 0.2;
+}
+
+.bg-opacity-2 {
+    background-color: #999;
+    color: #333;
+    opacity: 0.8;
+}
+
+/* rgba com opacidade */
+
+.rgba-opacity {
+    background-color: rgba(90, 120, 20, 0.2);
+    color: #333;
+}
+
+/* BG Image */
+
+.bg-image {
+    background-image: url("../img/nature.jpg");
+    color: #fff;
+}
+
+/* Centralizar imagem bg */
+
+.not-centered-bg, .centered-bg {
+    height: 400px;
+    width: 500px;
+    background-image: url("../img/bridge.jpg");
+}
+
+.centered-bg {
+    background-position: center;
+    background-size: cover;
+}
+
+/* Largura e Altura */
+
+.height-width {
+    height: 200px;
+    width: 100px;
+    background-color: red;
+}
+
+.height-width-2 {
+    height: 300px;
+    background-color: #000;
+}
+
+/* Padding */
+
+.without-padding, .padding {
+    background-color: #000;
+    color: #fff;
+}
+
+.padding {
+    padding: 20px;
+}
+
+/* Padding individual */
+
+.padding-individual {
+    background-color: #000;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
