@@ -359,3 +359,181 @@ h2 {
 .fantasy {
     font-family: fantasy;
 }
+
+/* Text style */
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+/* Font weight */
+
+.thin,
+.bold,
+.bolder {
+    font-family: Helvetica;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.bolder {
+    font-weight: 900;
+}
+
+/* font size */
+
+.small {
+    font-size: 6px;
+}
+
+.big {
+    font-size: 80px;
+}
+
+/* display */
+
+.inline-box {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    background-color: #12a333;
+    display: inline-block;
+}
+
+.block {
+    display: block;
+    background-color: #444;
+    margin: 10px;
+}
+
+/* invisible */
+
+.invisible {
+    display: none;
+}
+
+/* static */
+
+.static {
+    position: static;
+    background-color: #12a333;
+    color: #fff;
+    width: 300px;
+    height: 200px;
+}
+
+/* relative */
+
+.relative {
+    position: relative;
+    background-color: #000;
+    color: #fff;
+    width: 300px;
+    height: 200px;
+    top: 100px;
+    left: 30px;
+}
+
+/* absolute */
+
+.absolute {
+    position: absolute;
+    background-color: #12a333;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    top: 2px;
+    left: 2px;
+}
+
+/* relative - absolute */
+
+.rc {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+
+.ab-1,
+.ab-2 {
+    width: 50px;
+    height: 50px;
+    background-color: #12a333;
+    position: absolute;
+}
+
+.ab-1 {
+    top: 10px;
+    left: 10px;
+}
+
+.ab-2 {
+    right: 10px;
+    bottom: 10px;
+}
+
+/* fixed */
+
+.fixed {
+    width: 100px;
+    height: 100px;
+    border: 5px solid red;
+    position: fixed;
+    background-color: #12a333;
+    top: 50px;
+    right: 100px;
+}
+
+/* sticky */
+
+.sticky {
+    width: 100px;
+    height: 100px;
+    border: 5px solid red;
+    position: sticky;
+    background-color: #12a333;
+    top: 10px;
+}
+
+/* z-index */
+
+.ab-3,
+.ab-4,
+.ab-5 {
+    width: 50px;
+    height: 50px;
+    background-color: #12a333;
+    position: absolute;
+}
+
+.ab-3 {
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.ab-4 {
+    top: 10px;
+    left: 10px;
+    background-color: #000;
+    z-index: 20;
+}
+
+.ab-5 {
+    top: 40px;
+    left: 40px;
+    background-color: #333;
+    z-index: 0;
+}
